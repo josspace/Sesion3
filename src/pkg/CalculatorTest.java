@@ -33,17 +33,17 @@ class CalculatorTest {
 	
 	@Test
 	void testSubtraction() {
-		assertEquals(5, Calculator.subtraction(2,3));
+		assertEquals(-1, Calculator.subtraction(2,3));
 	}
 	
 	@Test
 	void testMultplication() {
-		assertEquals(5, Calculator.multiplication(2,3));
+		assertEquals(6, Calculator.multiplication(2,3));
 	}
 	
 	@Test
 	void testDivide() {
-		assertEquals(5, Calculator.divide(2,3));
+		assertEquals(0, Calculator.divide(2,3));
 	}
 
 }
